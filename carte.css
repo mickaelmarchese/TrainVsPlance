@@ -1,0 +1,104 @@
+.box, html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url("img/cartefond.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.stress{
+    font-family: 'DM Serif Text', serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+sup{
+    font-size: 6pt;
+}
+.bleu{color:#3d5a80;}
+.vert{color:#2A9D8F;}
+.orange{color:#E76F51;}
+.gris{color:#5e6472;}
+
+button{
+    border: solid 1px #264653 ;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt;
+    color: #264653;
+
+}
+
+        div{
+            border:none;
+        }
+.box {
+            display: flex;
+            flex-direction: column;
+          }
+          .header{
+              flex-grow: 3;
+              font-family: 'DM Serif Text', serif;
+              font-size: 28pt;
+              text-align: center;
+          }
+          .soustitre{
+              font-size: 12pt;
+              text-align: center;
+              font-family: 'Montserrat', sans-serif;
+              padding: 10px 0;
+          }
+          .centralcontainer{
+              flex-grow: 20;
+              display: flex;
+              flex-direction:row;
+          }
+          .footer{
+              flex-grow: 1;
+              font-family: 'Montserrat', sans-serif;
+              text-align: right;
+              font-size: 9pt;
+              color:#264653;
+          }
+          .maincontainer{
+            
+          }
+          .articlecontainer{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+
+          }
+          .articlecontainer .soustitre{
+              color:#264653;
+          }
+          .mapcontainer{
+            flex-grow: 4;
+            flex-basis: 800px;
+            
+          }
+          #mapid{
+              height:100%;
+          }
+          .article{
+            flex-grow: 1;
+            flex-basis: 50px;
+            padding: 10px;
+            overflow-wrap:normal;
+            background-color: #f0efebBB;
+            max-width: 500px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 9pt;
+            opacity: 0;
+          }
+          .emptycontainer{
+              flex-grow: 1;
+          }
+          .stepbutton{
+              float:right;
+              position: relative;
+              bottom: 0;
+          }
+          .cache{
+              opacity: 0;
+          }
